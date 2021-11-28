@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.center {
+    margin-top: 17.4px;
+    margin-left: 17.4PX;
+    display: inline-block;
+    vertical-align: middle
+}
+
+    p{
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #b2bec3;
+    padding: 0 8px;
+    }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+
+@media(max-width: 1000px){
+    .content{
+    width: 46%;
+}
+    
+@media(max-width: 750px){
+    .content{
+    width: 100%;
+}}}
